@@ -8,5 +8,5 @@ A demo project for trying out Unpoly, and also OAuth authentication in FastAPI. 
 - Bootstrap 5
 - UnpolyJS
 - Docker for packaging
-
+---
 ![Screenshot](images/screenshot_functions.png)
