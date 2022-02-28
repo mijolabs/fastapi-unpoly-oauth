@@ -1,6 +1,6 @@
 # FastAPI-Unpoly-OAuth
 
-A demo project for trying out Unpoly, and also OAuth authentication in FastAPI. It's an admin interface. Currently incomplete, much TODO.
+A demo project for trying out Unpoly, and also OAuth authentication in FastAPI. It's going to be an admin interface. Currently very incomplete, much TODO.
 
 # Stack
 - FastAPI
