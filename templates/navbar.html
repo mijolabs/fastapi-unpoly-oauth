@@ -1,0 +1,103 @@
+<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark px-3">
+  <div class="container">
+    <a class="navbar-brand"
+    href="/"
+    up-fragment
+    up-history="true"
+    up-preload
+    up-instant
+    up-transition="cross-fade"
+    up-easing="cubic-bezier(.36,1.01,.32,1.27)"
+    up-duration="500"
+    >
+    Admin
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+      <div class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="nav-item">
+          <a class="nav-link"
+            href="/functions"
+            up-fragment
+            up-history="true"
+            up-preload
+            up-instant
+            up-transition="cross-fade"
+            up-easing="cubic-bezier(.36,1.01,.32,1.27)"
+            up-duration="500"
+          >
+          Functions
+          </a>
+        </div>
+        <div class="nav-item">
+          <a class="nav-link"
+            href="/statistics"
+            up-fragment
+            up-history="true"
+            up-preload
+            up-instant
+            up-transition="cross-fade"
+            up-easing="cubic-bezier(.36,1.01,.32,1.27)"
+            up-duration="500"
+          >
+          Statistics
+          </a>
+        </div>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Environments
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <h6 class="dropdown-header fw-light">Development</h6>
+            <li><a class="dropdown-item new-window-icon" href="#" target="_blank" rel="noopener noreferrer">
+              System Tools&nbsp;&nbsp;
+            </a></li>
+            <li><a class="dropdown-item new-window-icon" href="#" target="_blank" rel="noopener noreferrer">
+              Customer Tools&nbsp;&nbsp;
+            </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <h6 class="dropdown-header fw-light">Production</h6>
+            <li><a class="dropdown-item new-window-icon disabled" href="#" target="_blank" rel="noopener noreferrer">
+              System Tools&nbsp;&nbsp;
+            </a></li>
+            <li><a class="dropdown-item new-window-icon disabled" href="#" target="_blank" rel="noopener noreferrer">
+              Customer Tools&nbsp;&nbsp;
+            </a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Team Resources
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item new-window-icon" href="#" target="_blank" rel="noopener noreferrer">
+              Servicedesk&nbsp;&nbsp;
+            </a></li>
+            <li><a class="dropdown-item new-window-icon" href="#" target="_blank" rel="noopener noreferrer">
+              Confluence Pages&nbsp;&nbsp;
+            </a></li>
+            <li><a class="dropdown-item new-window-icon" href="#" target="_blank" rel="noopener noreferrer">
+              GitLab Repository&nbsp;&nbsp;
+            </a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Contact</a></li>
+          </ul>
+        </li>
+      </div>
+      {# <div class="navbar-nav mb-2 mb-lg-0 px-3 text-end">
+        <li class="nav-item">
+          <a class="nav-link disabled">Configuration</a>
+        </li>
+      </div> #}
+      <a class="btn btn-md text-nowrap btn-outline-warning"
+        href="/login"
+        up-preload
+        up-instant
+        >
+        Login
+      </a>
+    </div>
+  </div>
+</nav>

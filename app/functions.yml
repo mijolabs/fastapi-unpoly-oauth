@@ -1,0 +1,33 @@
+users:
+  - name: "Query user"
+    desc: "Query a user and view its attributes."
+    href: "/devtest"
+    button: "Query user"
+  - name: "Create user"
+    desc: "Create a user."
+    href: "#"
+    button: "Create user"
+  - name: "Invite user"
+    desc: "Invite a user through email registration."
+    href: "#"
+    button: "Invite user"
+  - name: "Delete user"
+    desc: "Delete a user."
+    href: "#"
+    button: "Delete user"
+
+organizations:
+  - name: "Query organization"
+    desc: "Query an organization and view its attributes."
+    href: "#"
+    button: "Query organization"
+  - name: "Create organization"
+    desc: "Create an organization."
+    href: "#"
+    button: "Create organization"
+  - name: "Delete organization"
+    desc: "Delete an."
+    href: "#"
+    button: "Delete organization"
+
+misc:
