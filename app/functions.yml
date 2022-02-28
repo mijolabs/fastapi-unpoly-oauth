@@ -26,7 +26,7 @@ organizations:
     href: "#"
     button: "Create organization"
   - name: "Delete organization"
-    desc: "Delete an."
+    desc: "Delete an organization."
     href: "#"
     button: "Delete organization"
 
